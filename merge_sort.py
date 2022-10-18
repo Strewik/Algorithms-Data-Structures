@@ -38,13 +38,13 @@ def split (list):
     
 def merge (left, right):
     """
-    Merges two lists (lists), sorting them in the process
+    Merges two lists (arrays), sorting them in the process
     Returns a new merged list
     
     Runs in overall 0(n) time
     """
     l = []
-    i = 0
+    i = 0 
     j = 0
     
     while i < len(left) and j < len(right):
